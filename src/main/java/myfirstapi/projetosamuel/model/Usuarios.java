@@ -42,4 +42,13 @@ public class Usuarios {
     public void setCep(String cep) {
         this.cep = cep;
     }
+
+    @Override
+    public String toString() {
+        return "Usuarios{" +
+                "id=" + id +
+                ", nome='" + nome + '\'' +
+                ", cep='" + cep + '\'' +
+                '}';
+    }
 }
